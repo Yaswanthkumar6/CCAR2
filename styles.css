@@ -1,8 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    background-color:cadetblue;
-}
+ }
 
 
 /*navbar*/
@@ -66,6 +65,9 @@ nav{
     }
  }
 
+body {
+        background-color:cadetblue;
+}
 
  /*cards*/
 
