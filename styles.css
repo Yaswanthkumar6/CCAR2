@@ -99,7 +99,7 @@ nav{
 
  .card p {
     color:burlywood;
-    font-size: 14px;
+    font-size: medium;
 }
 
  @media (max-width: 600px) {
@@ -130,7 +130,7 @@ main h1{
  /* Footer*/
 
 footer {
-    background-color: #222;
+    background-color:black;
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -156,7 +156,7 @@ footer {
 }
 
 .footer-section p {
-    font-size: small ;
+    font-size: medium;
     color: white;
 }
 
