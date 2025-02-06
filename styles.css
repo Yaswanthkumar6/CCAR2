@@ -118,7 +118,7 @@ nav{
     padding: 20px;
 }
 main h1{
-    text-align: center
+    text-align: center;
 }
 
 .pic{
@@ -160,11 +160,29 @@ footer {
     color: white;
 }
 
-.footer-section table {
+.smedia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
    }
 
-.icons {
+.socmed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
+
+.sicon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+     background-color: black;
+    color:blue;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 10px;
+} 
 
  .footer-bottom {
     padding-top: 15px;
