@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvergreenEstates</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+     <nav>
+        <div class="logo">
+        <h1><span style="color:darkcyan">Evergreen</span>Estates</h1>
+        </div>
+        <ul id="menulist">
+
+            <li>
+                <a href="#home" class="nav-link-active">Home</a>
+            </li>
+
+            <li>
+                <a href="#about" class="nav-link">About</a>
+            </li>
+
+            <li>
+                <a href="#services" class="nav-link">Services</a>
+            </li>
+
+            <li>
+                <a href="#contact" class="nav-link">Contact Us</a>
+            </li>
+
+        </ul>
+
+    <div class="nav-toggle">
+        <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+    </div>
+            
+    </nav>
+
+    <script>
+        let menulist = document.getElementById("menulist")
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu(){
+            if( menulist.style.maxHeight = "0px")
+            {
+                 menulist.style.maxHeight = "300px";
+            }
+            else{
+                 menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    </header>
+
+<div class="photo">
+    <img src="CARD5.webp" class="pic">
+</div>
+
+    <br>
+
+    <main id="services">
+
+        <h1>Our Services</h1><br>
+        <div class="container">
+
+            <div class="card">
+                <img src="IMAGE.avif" class="img">
+                <div class="card-body">
+                <h3>Residential Construction</h3>
+                <p>We build high-quality homes with modern designs and durable materials, ensuring safety and comfort for your family.</p>
+                </div>
+            </div>
+        
+            <div class="card">
+           <img src="CARD2.webp" class="img">
+                <div class="card-body"> 
+                <h3>Commercial Projects</h3>
+                <p>From office buildings to retail spaces, we deliver efficient, sustainable, and aesthetically pleasing commercial structures.</p>
+            </div>
+            </div>
+        
+            <div class="card">
+            <img src="CARD1.webp" class="img">
+                <div class="card-body">
+                <h3>Renovation & Remodeling</h3>
+                <p>Upgrade your home or business with our expert renovation services, enhancing functionality and visual appeal.</p>
+            </div>
+            </div>
+        
+            <div class="card">
+            <img src="card1-2.png" class="img">
+                <div class="card-body">
+                <h3>Infrastructure Development</h3>
+                <p>We specialize in roads, bridges, and public infrastructure projects, contributing to urban and rural development.</p>
+            </div>
+            </div>
+        
+            <div class="card">
+            <img src="CARD5-2.jpg" class="img">
+                <div class="card-body">
+                 <h3>Project Management</h3>
+                <p>Our expert team ensures timely project completion with quality assurance, budget control, and regulatory compliance.</p>
+            </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We are a leading construction company dedicated to delivering high-quality residential, commercial, and infrastructure projects.</p>
+            </div>
+    
+            <div class="footer-section links">
+                <h3>Social Media</h3>
+ 
+                <table  align-content="center">
+                    <tr align-content="center">
+                      <th><a  class="insta"  href="#"><i class="fa-brands fa-instagram"></i></a> </th>
+                      <th><a  class="twitter" href="#" ><i class="fa-brands fa-square-x-twitter"></i></a> </th>
+                      <th><a  class="faceb" href="#" ><i class="fa-brands fa-facebook"></i></a>  </th>
+                    </tr>
+                    <tr class="icons">
+                      <td><p>INSTAGRAM</p> </td>
+                      <td><p>TWITTER</p> </td>
+                      <td><p>FACEBOOK</p> </td>
+                    </tr>
+                  </table>
+
+            </div>
+    
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@EvergreenEstates.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 183 Main St, Hyderabad, India</p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2025 EvergreenEstatesLtd. | All Rights Reserved</p>
+        </div>
+    </footer>
+
+<script src="https://kit.fontawesome.com/d47d82a818.js" crossorigin="anonymous"></script>
+</body>
+</html>
