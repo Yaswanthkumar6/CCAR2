@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    background-color:cadetblue;
 }
 
 
@@ -63,10 +64,6 @@ nav{
     .nav-toggle{
         display: block;
     }
- }
-
- body{
-    background-color:cadetblue;
  }
 
 
